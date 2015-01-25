@@ -6,7 +6,7 @@
     <name>Calendar</name>
     <description>Sample PhoneGap Calendar Plugin</description>
     <license>MIT</license>
-    <keywords>phonegap,calendar</keywords>
+    <keywords>cordova,calendar</keywords>
 
 
     <js-module src="www/calendar.js" name="Calendar">
@@ -15,7 +15,7 @@
 
     <!-- android -->
     <platform name="android">
-        <config-file target="res/xml/config.xml" parent="/*">
+        <config-file target="config.xml" parent="/*">
             <feature name="Calendar">
                 <param name="android-package" value="com.stlouisweb.calendarplugin.Calendar"/>
             </feature>
