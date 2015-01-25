@@ -3,7 +3,7 @@ var calendar = {
         cordova.exec(
             successCallback, // success callback function
             errorCallback, // error callback function
-            'Calendar', // mapped to our native Java class called "Calendar"
+            'Calendar', // mapped to our native Java class called "CalendarPlugin"
             'addCalendarEntry', // with this action name
             [{                  // and this array of custom arguments to create our entry
                 "title": title,
@@ -12,7 +12,7 @@ var calendar = {
                 "startTimeMillis": startDate.getTime(),
                 "endTimeMillis": endDate.getTime()
             }]
-        )
+        );
     }
 }
 module.exports = calendar;
