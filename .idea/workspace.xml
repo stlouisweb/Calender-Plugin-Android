@@ -44,7 +44,7 @@
       <file leaf-file-name="plugin.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="29" selection-start="523" selection-end="523" vertical-scroll-proportion="0.45873016" vertical-offset="0" max-vertical-offset="630">
+            <state line="21" column="22" selection-start="726" selection-end="726" vertical-scroll-proportion="0.5684713" vertical-offset="0" max-vertical-offset="628">
               <folding />
             </state>
           </provider>
@@ -245,7 +245,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="523" selection-end="523" vertical-scroll-proportion="0.45873016" vertical-offset="0" max-vertical-offset="630">
+        <state line="21" column="22" selection-start="726" selection-end="726" vertical-scroll-proportion="0.5684713" vertical-offset="0" max-vertical-offset="628">
           <folding />
         </state>
       </provider>
