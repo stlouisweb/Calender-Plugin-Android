@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.stlouisweb.calendarplugin"
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.stlouisweb.calendar"
         version="0.1.0">
     <name>Calendar</name>
     <description>Sample PhoneGap Calendar Plugin</description>
     <license>MIT</license>
-    <keywords>cordova,calendar</keywords>
+    <keywords>phonegap,calendar</keywords>
 
 
     <js-module src="www/calendar.js" name="Calendar">
@@ -15,12 +15,12 @@
 
     <!-- android -->
     <platform name="android">
-        <config-file target="config.xml" parent="/*">
+        <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Calendar">
-                <param name="android-package" value="com.stlouisweb.calendarplugin.Calendar"/>
+                <param name="android-package" value="com.stlouisweb.calendar.Calendar"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/Calendar.java" target-dir="src/" />
+        <source-file src="src/android/Calendar.java" target-dir="src/com/stlouisweb/calendar" />
     </platform>
 </plugin>
